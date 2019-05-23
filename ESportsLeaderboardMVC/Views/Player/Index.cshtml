@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ESportsLeaderboardMVC.Models.Player>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PlayerID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Handle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalSubscribers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalViewers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalTimeViewed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalTimeStreamed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CurrentRank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HighestRank)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlayerID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Handle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalSubscribers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalViewers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalTimeViewed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalTimeStreamed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CurrentRank)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HighestRank)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
