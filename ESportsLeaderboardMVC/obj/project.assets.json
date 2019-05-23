@@ -12990,11 +12990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor\\Desktop\\ESportsLeaderboard\\ESportsLeaderboardMVC\\ESportsLeaderboardMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Victor\\Documents\\ESportsLeaderboard\\ESportsLeaderboardMVC\\ESportsLeaderboardMVC.csproj",
       "projectName": "ESportsLeaderboardMVC",
-      "projectPath": "C:\\Users\\Victor\\Desktop\\ESportsLeaderboard\\ESportsLeaderboardMVC\\ESportsLeaderboardMVC.csproj",
+      "projectPath": "C:\\Users\\Victor\\Documents\\ESportsLeaderboard\\ESportsLeaderboardMVC\\ESportsLeaderboardMVC.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor\\Desktop\\ESportsLeaderboard\\ESportsLeaderboardMVC\\obj\\",
+      "outputPath": "C:\\Users\\Victor\\Documents\\ESportsLeaderboard\\ESportsLeaderboardMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

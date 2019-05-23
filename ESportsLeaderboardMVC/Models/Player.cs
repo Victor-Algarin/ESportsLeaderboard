@@ -8,9 +8,9 @@ namespace ESportsLeaderboardMVC.Models
     public class Player
     {
         public int PlayerID { get; set; }
-        public String FirstName { get; set; }
-        public String LastName { get; set; }
-        public String Handle { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Handle { get; set; }
         public int TotalSubscribers { get; set; }
         public int TotalViewers { get; set; }
         public TimeSpan TotalTimeViewed { get; set; }
